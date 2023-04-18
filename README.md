@@ -1,6 +1,5 @@
 # SwoftyDB
 ![badge](https://img.shields.io/github/v/release/Swofty-Developments/SwoftyDB)
-[![badge](https://jitpack.io/v/Swofty-Developments/SwoftyDB.svg)](https://jitpack.io/#Swofty-Developments/SwoftyDB)
 ![badge](https://img.shields.io/github/last-commit/Swofty-Developments/SwoftyDB)
 [![badge](https://img.shields.io/discord/830345347867476000?label=discord)](https://discord.gg/atlasmc)
 [![badge](https://img.shields.io/github/license/Swofty-Developments/SwoftyDB)](https://github.com/Swofty-Developments/SwoftyDB/blob/master/LICENSE.txt)
