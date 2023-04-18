@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="" />
+    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/exceptions/SwoftyFunctionNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/exceptions/SwoftyFunctionNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ObuxPEG4J0ITwx29iDDFmj3A6r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,9 +42,33 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Swofty/Downloads/Mintlify_Doc_Writer-1.1.6.zip",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.swofty.Main" />
+      <module name="SwoftyDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.swofty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,9 +77,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681841851980</updated>
-      <workItem from="1681841853477" duration="1000" />
+      <workItem from="1681841853477" duration="6605000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

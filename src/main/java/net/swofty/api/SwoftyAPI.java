@@ -1,2 +1,4 @@
-package net.swofty.api;public class SwoftyAPI {
+package net.swofty.api;
+
+public class SwoftyAPI {
 }
