@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="Slight updates">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/exceptions/SwoftyFunctionNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/exceptions/SwoftyFunctionNotFound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +68,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681841851980</updated>
-      <workItem from="1681841853477" duration="6605000" />
+      <workItem from="1681841853477" duration="7007000" />
     </task>
+    <task id="LOCAL-00001" summary="Slight updates">
+      <created>1681848595447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848595447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Slight updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slight updates" />
   </component>
 </project>
