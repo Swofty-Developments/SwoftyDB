@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="Slight updates">
+    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="Fixed GitHub Packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/SwoftySocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/GlobalDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/UserDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DataFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DocumentUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/EntryOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/EntryOrBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/ProtoHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.proto" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Swofty/Downloads/Mintlify_Doc_Writer-1.1.6.zip",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Swofty/Downloads/Mintlify_Doc_Writer-1.1.6.zip&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SwoftyDB\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.swofty.Main" />
@@ -68,7 +93,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681841851980</updated>
-      <workItem from="1681841853477" duration="7007000" />
+      <workItem from="1681841853477" duration="8555000" />
+      <workItem from="1683721863418" duration="10339000" />
+      <workItem from="1683788531504" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="Slight updates">
       <created>1681848595447</created>
@@ -77,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681848595447</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated pom.xml ver">
+      <created>1681848872748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848872748</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed GitHub Packages">
+      <created>1681848956445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681848956445</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Slight updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slight updates" />
+    <MESSAGE value="Updated pom.xml ver" />
+    <MESSAGE value="Fixed GitHub Packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed GitHub Packages" />
   </component>
 </project>

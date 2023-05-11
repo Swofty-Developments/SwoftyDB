@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "net.swofty.db.proto";
+option java_outer_classname = "SwoftyDB";
+
+message CustomObject {
+  // Add fields for your custom object
+  int32 id = 1;
+  string name = 2;
+  bytes serialized_java_object = 3; // Add this field to store the serialized Java object
+}
+
+message Entry {
+  string key = 1;
+  oneof value {
+    string string_value = 2;
+    int32 int_value = 3;
+    CustomObject custom_object = 4;
+    double double_value = 5;
+    int64 long_value = 6;
+  }
+}
+
+message ValueWrapper {
+  oneof value {
+    string string_value = 1;
+    int32 int_value = 2;
+    CustomObject custom_object = 3;
+    double double_value = 4;
+    int64 long_value = 5;
+  }
+}
+
+message Document {
+  string document_key = 1;
+  repeated Entry entries = 2;
+}
+
+message Database {
+  repeated Document documents = 1;
+}
