@@ -8,6 +8,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.ByteBuffer;
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class SwoftyAPI {
@@ -40,12 +41,16 @@ public class SwoftyAPI {
 									}
 
 									ByteString toReturn = socket.action(data);
+									System.out.println("Returning " + toReturn);
 									byte[] sizeBuffer = java.nio.ByteBuffer.allocate(4).putInt(toReturn.size()).array();
+									System.out.println("Time: " + System.currentTimeMillis());
+									System.out.println("SizeBuffer " + Arrays.toString(sizeBuffer));
 									finalOutputStream.write(sizeBuffer);
 
 									// Send the ByteString data
 									finalOutputStream.write(toReturn.toByteArray());
 									finalOutputStream.flush();
+									System.out.println("Time 2: " + System.currentTimeMillis());
 								}
 							}
 						} catch (RuntimeException | IOException e) {}

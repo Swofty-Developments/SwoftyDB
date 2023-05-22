@@ -105,27 +105,27 @@ public class DocumentUtility {
 		return Optional.empty();
 	}
 
-	public static Optional<Object> getValueForKey(Document document, String key) {
+	public static Object getValueForKey(Document document, String key) {
 		for (Entry entry : document.getEntriesList()) {
 			if (entry.getKey().equals(key)) {
 				switch (entry.getValueCase()) {
 					case STRING_VALUE:
-						return Optional.of(entry.getStringValue());
+						return entry.getStringValue();
 					case INT_VALUE:
-						return Optional.of(entry.getIntValue());
+						return entry.getIntValue();
 					case CUSTOM_OBJECT:
-						return Optional.of(entry.getCustomObject());
+						return entry.getCustomObject();
 					case DOUBLE_VALUE:
-						return Optional.of(entry.getDoubleValue());
+						return entry.getDoubleValue();
 					case LONG_VALUE:
-						return Optional.of(entry.getLongValue());
+						return entry.getLongValue();
 					case VALUE_NOT_SET:
 					default:
-						return Optional.empty();
+						return null;
 				}
 			}
 		}
-		return Optional.empty();
+		return null;
 	}
 }
 

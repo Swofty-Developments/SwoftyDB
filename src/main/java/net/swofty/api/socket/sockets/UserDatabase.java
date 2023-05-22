@@ -40,7 +40,9 @@ public class UserDatabase extends SwoftySocket {
 				}
 
 			case "CONTAINS-KEY":
-				if (DocumentUtility.getValueForKey(foundDocument, data.get("key")).isPresent()) {
+				System.out.println("Contains-Key");
+				System.out.println("Value: " + DocumentUtility.getValueForKey(foundDocument, data.get("key")));
+				if (DocumentUtility.getValueForKey(foundDocument, data.get("key")) != null) {
 					return ByteString.copyFrom(new byte[]{1});
 				} else {
 					return ByteString.copyFrom(new byte[]{0});

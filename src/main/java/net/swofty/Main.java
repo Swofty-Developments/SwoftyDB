@@ -73,7 +73,7 @@ public class Main {
 		ByteString receivedByteString = new ConnectionUtils("127.0.0.1", 4000).makeConnection(toSend);
 		Document receivedDocument = Document.parseFrom(receivedByteString);
 		System.out.println(receivedDocument);
-		System.out.println(DocumentUtility.getValueForKey(receivedDocument, "username").get());
+		System.out.println(DocumentUtility.getValueForKey(receivedDocument, "username"));
 
 
 		JSONObject toSend3 = new JSONObject();

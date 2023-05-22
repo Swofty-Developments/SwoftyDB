@@ -4,28 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="Fixed GitHub Packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/SwoftySocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/GlobalDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/UserDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DataFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DocumentUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/swofty/utility/RedisUtils.java" afterDir="false" />
+    <list default="true" id="ddac0a75-c707-453e-9aac-1f207b4e651a" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/database.proto" beforeDir="false" afterPath="$PROJECT_DIR$/bin/database.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/SwoftyAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/SwoftyDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/DatabaseFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/GetFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/function/functions/SetFunction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/Entry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/EntryOrBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/EntryOrBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/proto/ProtoHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/api/socket/sockets/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/swofty/db/DocumentUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/swofty/db/DocumentUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +22,13 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -95,7 +87,8 @@
       <updated>1681841851980</updated>
       <workItem from="1681841853477" duration="8555000" />
       <workItem from="1683721863418" duration="10339000" />
-      <workItem from="1683788531504" duration="4407000" />
+      <workItem from="1683788531504" duration="5131000" />
+      <workItem from="1683938844676" duration="8925000" />
     </task>
     <task id="LOCAL-00001" summary="Slight updates">
       <created>1681848595447</created>
@@ -118,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681848956445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1683793168050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683793168050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +139,7 @@
     <MESSAGE value="Slight updates" />
     <MESSAGE value="Updated pom.xml ver" />
     <MESSAGE value="Fixed GitHub Packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed GitHub Packages" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
