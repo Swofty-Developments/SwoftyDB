@@ -6,7 +6,7 @@
 
 **[JavaDoc 1.0.0](https://swofty-developments.github.io/SwoftyDB/)**
 
-Simple, but fast way to store raw key + value pairs!
+Simple way to store MongoDB-like "documents", with every document having a key, and a list of key + value pairs.
 
 ## Table of contents
 
